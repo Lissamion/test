@@ -1,0 +1,95 @@
+.img {
+    background-image: url(../art/beach_scene.JPG);
+    background-repeat: no-repeat;
+    height: 1148px;
+    width:2048px;
+}
+
+.back{
+    width: 1940px;
+    height: 1200px;
+    background-color: #00817b;
+    color: #fff;
+    border: 1px solid #00817b;
+    box-shadow: 14px 0 40px 0 black;
+    position: absolute;
+    z-index: auto;
+    
+    
+}
+
+table{
+   position: relative;
+   position: absolute; /*во время js убрать */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 1770px;
+    border: 1px solid #004381;
+    color: #1a59a1;
+    width: 100px;
+    background-color: cadetblue;
+}
+.th {
+    padding: 10px; 
+    border: 1px solid #A9E2CC;
+}
+.td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #A9E2CC;
+}
+.tr{
+    border: 1px solid #A9E2CC;
+}
+
+.tx{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 389px;
+    font-size: 60px;
+    border-right: 4px solid white;
+    padding-right: 20px;
+    
+}
+.tx2{
+    position: static;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 1100px;
+    font-size: 40px;
+}
+.logo{
+margin-left: 1700px;
+margin-top:450px;
+}
+.hr{
+    margin-top: 450px;
+    margin-left: 175px;
+}
+.ox{
+    position: absolute;
+    margin-left: 154px;
+    font-family: Helvetica Regular;
+    font-size: 20px;
+    color: white;
+}
+.bl1{
+    margin-top: 30PX;
+   /* margin-right: 154px;*/
+    margin-left: 1550px;
+    border-right: 1px solid #CCCCCC;
+    z-index: auto;
+    position: absolute;
+    padding-right: 10px;
+    color: #fbae17;
+}
+.bl2{
+    margin-right: 154px;
+    margin-left: 1800px;
+    position: relative;
+    margin-top: 45px;
+    color: #fbae17;
+}
