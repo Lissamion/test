@@ -1,8 +1,20 @@
+@font-face{
+    font-family: 'HelveticaReg';
+    src:
+    url("../Тест/text/Helvetica_bd.woff") format("woff"),
+    url("../Тест/text/Helvetica_bd.ttf") format("ttf");
+    font-weight: bold;
+    font-display: optional;
+    font-style: normal;
+}
+
 .img {
-    background-image: url(../art/beach_scene.JPG);
+    background-image: url("../Тест/art/beach_scene.JPG");
     background-repeat: no-repeat;
     height: 1148px;
-    width:2048px;
+    width: 2048px;
+    position:absolute;
+    
 }
 
 .back{
@@ -11,22 +23,25 @@
     background-color: #00817b;
     color: #fff;
     border: 1px solid #00817b;
-    box-shadow: 14px 0 40px 0 black;
+   /* box-shadow: 14px 0 40px 0 black;
+    box-shadow: blur 0;*/
+    box-shadow: 14px 0 10px #00000040;
     position: absolute;
     z-index: auto;
-    
-    
+    justify-content: stretch;
+    display: flex;
+    position: sticky;
+    font-family: 'HelveticaReg';
 }
 
 table{
    position: relative;
    position: absolute; /*во время js убрать */
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     text-align: center;
-    margin-right: 30px;
-    margin-left: 1770px;
+    right: 30px;
+    left: 1770px;
     border: 1px solid #004381;
     color: #1a59a1;
     width: 100px;
@@ -47,49 +62,108 @@ table{
 
 .tx{
     position: absolute;
-    margin-top: 400px;
-    margin-left: 389px;
-    font-size: 60px;
-    border-right: 4px solid white;
+    top: 400px;
+    left: 230px;
+    font-size: 70px;
+    border-right: 3px solid white;
     padding-right: 20px;
-    
+    line-height: 50px;
+    /*float: left;*/
+    width: 745px;
+    height: 145px;
+    line-height: normal;
+    font-weight: bolder;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'HelveticaReg';
 }
+
+#contener{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row-reverse;
+}
+
 .tx2{
     position: static;
     position: absolute;
-    margin-top: 420px;
-    margin-left: 1100px;
-    font-size: 40px;
+    top: 10px;
+    left: 850px;
+    font-size: 50px;
+    text-align: center;
+    float:right;
+    font-weight: bold;
+    line-height: normal;
+    width: 600px;
+    margin: auto;
+    bottom:110%;
+    font-family: 'HelveticaReg';
 }
+.tx3{
+    position: relative;
+    font-size: 30px;
+    top:50%;
+    left: 30px;
+    height: 50px;
+    width: 500px;
+    line-height: normal;
+    font-family: 'HelveticaReg';
+}
+
 .logo{
-margin-left: 1700px;
-margin-top:450px;
+    position: absolute;
+    left: 550px;
+    bottom: 80%;
+    height: 130px;
+    width: 150px;
 }
 .hr{
-    margin-top: 450px;
-    margin-left: 175px;
+    position: relative;
+    top: 950px;
+    left: 154px;
+    height: 150px;
+    width: 500px;
+    /*margin: -8PX;*/
 }
 .ox{
     position: absolute;
-    margin-left: 154px;
-    font-family: Helvetica Regular;
+    top:185px;
+    font-family: 'Helvetica Regular';
     font-size: 20px;
     color: white;
 }
 .bl1{
-    margin-top: 30PX;
+    top: 1150PX;
    /* margin-right: 154px;*/
-    margin-left: 1550px;
+    left: 1400px;
     border-right: 1px solid #CCCCCC;
     z-index: auto;
     position: absolute;
-    padding-right: 10px;
+    padding-right: 50px;
     color: #fbae17;
+    font-size: 20px;
+    height: 20px;
+    font-family: 'Helvetica Regular';
 }
 .bl2{
-    margin-right: 154px;
-    margin-left: 1800px;
+    right: 154px;
+    left: 300px;
     position: relative;
-    margin-top: 45px;
     color: #fbae17;
+    font-size: 20px;
+    bottom: 25PX;
+    height: 10px;
+    width: 50px;
+    font-family: 'Helvetica Regular';
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*p{
+    text-align: justify;
+    
+}
+*/
