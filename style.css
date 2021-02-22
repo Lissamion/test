@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face{
     font-family: 'HelveticaReg';
     src:
@@ -15,10 +16,16 @@
     width: 2048px;
     position:absolute;
     
+=======
+.img {
+    height: 1148px;
+    width:2048px;
+>>>>>>> main
 }
 
 .back{
     width: 1940px;
+<<<<<<< HEAD
     height: 1200px;
     background-color: #00817b;
     color: #fff;
@@ -46,6 +53,22 @@ table{
     color: #1a59a1;
     width: 100px;
     background-color: cadetblue;
+=======
+    height: 1488px;
+    background-color: #00817b;
+    color: #fff;
+    border: 1px solid #00817b;
+}
+table{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    position: static;
+    border: 1px solid #004381;
+    color: #003c81;
+    width: 100%;
+>>>>>>> main
 }
 .th {
     padding: 10px; 
@@ -55,6 +78,7 @@ table{
     font-size: 0.8em;
     padding: 5px 7px;
     border: 1px solid #A9E2CC;
+<<<<<<< HEAD
 }
 .tr{
     border: 1px solid #A9E2CC;
@@ -167,3 +191,6 @@ flex-direction: row-reverse;
     
 }
 */
+=======
+}
+>>>>>>> main
