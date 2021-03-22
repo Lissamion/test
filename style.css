@@ -69,62 +69,71 @@ table{
 
 .flex-text-help{
     position: absolute;
-    justify-content:space-around;
+    justify-content: space-around;
     text-align: center;
     top: 20%;
-    
+    right: 50%;
     font-size: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     font-family: 'HelveticaReg';
-    width: 1000px;
-    vertical-align: middle;
+    width: 600px;
+    padding-right: 20px;
 }
 .help-marg{
     margin: 0 auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 312px;
     text-transform: uppercase;
     line-height: 1;
-    transform: translatey(-50%,-50%);
     overflow: auto;
+    text-align: justify;
+    text-align-last: justify;
+    -moz-text-align-last: justify;
+    letter-spacing: -3px;
+    height: 110px;
     
 }
 
 .flex-text-can-you{
-    top: 7px;
-    font-size: 35px;
+    /*top: 7px;*/
+    position: absolute;
+    font-size: 20px;
     padding-left: 40px;
-    text-align: center;
-    border-left: 3px solid white;
-    height: 120px;
-    max-width: 700px;
-    width: 100%;
-    bottom:110%;
+    text-align: justify;
+    text-align-last: center;
+    border-left: 1px solid white;
     display: flex;
     align-self: center;
     font-family: 'HelveticaReg';
+    left: 79%;
+    width: 450px;
+    height: 108px;
+}
+.can-you{
     margin: 0 auto;
-    right: 10%;
+    max-width: 500px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 1;
+    overflow: auto;
+    text-align: justify;
+    text-align-last: justify;
+    height: 110px;
 }
 
 .p-follow{
     position: relative;
-    font-size: 20px;
-    left: 20%;
-    bottom: 25px;
-    display: flex;
+    font-size: 25px;
+    top: 2%;
     font-family: 'HelveticaReg';
 
 }
 
 .setting-button{
     position: relative;
-    bottom: 50%;
-    left: 100%;
     height: auto;
-    display: flex;
 }
 .logo-horse-posit{
     position: relative;
@@ -174,11 +183,11 @@ table{
 
 *{
     margin: 0;
-    padding-right: 10px;
-  
 }
 *p{
     text-align: justify;
+    text-align-last:justify;
+    -moz-text-align-last:justify;
     
 
 }
@@ -194,3 +203,7 @@ article{
      font-size: 40px;
  }
 }
+.wrooom {
+    margin-right: 1000px;
+    transition: margin 1s ease-out 0.5s;
+  }
