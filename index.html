@@ -8,6 +8,8 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         
         
+        
+        
        
     </head>
     <body class="img-backgroup">
@@ -17,39 +19,43 @@
             <table aling ="right">
             <table class="td">
                 <tr class="th">
-                    <th class="tr">Стартовое значение</th><td></td>
+                    <th class="tr">Стартовое значение</th><td><input type="number" id="a" placeholder="enter value"></td>
                 </tr>
                 <tr class="th">
-                    <th class="tr">Процент</th><td></td>
+                    <th class="tr">Процент</th><td><input type="number" id="b" placeholder=" enter %"></td>
                 </tr>
                 <tr class="th">
                     <th class="tr"></th><td>Предсказанное значение</td>
                 </tr>
                 <tr class="th">
-                    <th class="tr">Месяц 1</th><td></td>
+                    <th class="tr">Месяц 1</th><td id="sum1"></td>
                 </tr>
                 <tr class="th">
-                    <th class="tr">Месяц 2</th><td></td>
+                    <th class="tr">Месяц 2</th><td id="sum2"></td>
                 </tr>
                 <tr class="th">
-                    <th class="tr">Месяц 3</th><td></td>
+                    <th class="tr">Месяц 3</th><td  id="sum3"></td>
                 </tr>
             </table>
         </table>
         </div>
-        <div class="green-list-prop">
+        <div id="blockClick" class="green-list-prop">
             <div class="flex-text-help">
                     <div class="help-marg">  
-                        <p>HELP PROTECT
-                        YOUR TRAVALLED</p>
+                        <p style="font-size: 52px;">HELP PROTECT</p>
+                       <p style="font-size: 47px;">YOUR TRAVALLED</p>
                     </div>
-                            <div>
-                                <p class="flex-text-can-you">CAN YOU SPOT THE<br>
-                                 HEPATITIS RISKS</p>
-                                 <p class="p-follow"> IN THE FOLLOWING VIDEO?</p>
+                            <div class ="flex-text-can-you" style="bottom: -1%;">
+                                <div class="can-you">
+                                    <p style="font-size: 33px;" >CAN YOU SPOT THE</p>
+                                    <p style="font-size: 38px;">HEPATITIS RISKS</p>
+                                    <p class="p-follow"> IN THE FOLLOWING VIDEO?</p>
+                                </div>
+                                    
+                                 
 
                                     <div class="setting-button">
-                                     <img src="./art/lg.png">
+                                    <img id="buttonClick" src="./art/lg.png">
                                      </div>
                             </div>
                                    
@@ -67,6 +73,7 @@
             </div>
            
         </div>
-  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./in.js"></script>
     </body>
     </html>
