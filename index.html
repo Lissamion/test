@@ -11,51 +11,48 @@
 
 <body class="background">
   <div class="table">
-    <table aling="right">
-      <table class="td">
-        <tr class="th">
-          <th class="tr">Стартовое значение</th>
-          <td><input id="a" placeholder=" enter value" /></td>
-        </tr>
-        <tr class="th">
-          <th class="tr">Процент</th>
-          <td><input id="b" placeholder=" enter %" /></td>
-        </tr>
-        <tr class="th">
-          <th class="tr"></th>
-          <td>Предсказанное значение</td>
-        </tr>
-        <tr class="th">
-          <th class="tr">Месяц 1</th>
-          <td id="sum1"></td>
-        </tr>
-        <tr class="th">
-          <th class="tr">Месяц 2</th>
-          <td id="sum2"></td>
-        </tr>
-        <tr class="th">
-          <th class="tr">Месяц 3</th>
-          <td id="sum3"></td>
-        </tr>
-      </table>
+    <table class="td" align="right">
+      <tr class="th">
+        <th class="tr">Стартовое значение</th>
+        <td><input type="text" id="a" placeholder=" enter value" /></td>
+      </tr>
+      <tr class="th">
+        <th class="tr">Процент</th>
+        <td><input type="text" id="b" placeholder=" enter %" /></td>
+      </tr>
+      <tr class="th">
+        <th class="tr"></th>
+        <td>Предсказанное значение</td>
+      </tr>
+      <tr class="th">
+        <th class="tr">Месяц 1</th>
+        <td name="sum"></td>
+      </tr>
+      <tr class="th">
+        <th class="tr">Месяц 2</th>
+        <td name="sum"></td>
+      </tr>
+      <tr class="th">
+        <th class="tr">Месяц 3</th>
+        <td name="sum"></td>
+      </tr>
     </table>
   </div>
 
   <div id="blockClick" class="bg-green">
-    <div class="title-left">
-      <div class="caption-left">
-        <p style="font-size: 3.4rem">HELP PROTECT</p>
-        <p style="font-size: 2.7rem">YOUR TRAVALLED</p>
+    <div class="container">
+      <div class="verticalcontainer">
+        <div class="contleft">HELP PROTECT</div>
+        <div class="contleft">YOUR TRAVALLERS</div>
       </div>
-      <div class="title-right" style="bottom: -1%">
-        <div class="caption-right">
-          <p style="font-size: 33px">CAN YOU SPOT THE</p>
-          <p style="font-size: 35px">HEPATITIS RISKS</p>
-          <p class="title-right-text">IN THE FOLLOWING VIDEO?</p>
-        </div>
-        <div class="setting-button">
-          <img id="buttonClick" src="./art/lg.png" />
-        </div>
+      <div class="line"></div>
+      <div class="verticalcontainer">
+        <div class="contright">CAN YOU SPOT THE</div>
+        <div class="contright">HEPATITIS RISKS</div>
+        <div class="contright">IN THE FOLLOWING VIDEO?</div>
+      </div>
+      <div class="setting-button">
+        <img id="buttonClick" src="./art/play.png" />
       </div>
     </div>
 
@@ -63,14 +60,13 @@
       <div class="footer-logo">
         <img src="./art/horse.png" />
         <div class="footer-adress">
-          <p>
-            Dzerzhinskogo av.57, Minsk Belarus<br />
-            @ Oxagile,2021
-          </p>
+          Dzerzhinskogo av.57, Minsk Belarus<br>
+          @ Oxagile,2021
         </div>
       </div>
       <div class="footer-info">
-        <p>Prescribing information</p>
+        <p class="footer-reference">Prescribing information </p>
+        <div class="footer-line"></div>
         <p class="footer-reference">References</p>
       </div>
     </footer>
